@@ -1,0 +1,48 @@
+#triviaQuestions {
+    text-align: center;
+}
+
+#remainingTime { 
+    text-align: center;
+    color: rgb(128, 0, 0)
+}
+
+body {
+    background-image: url('https://i.pinimg.com/originals/dc/ef/f6/dceff6eb8639f46f68f25c36125bdbeb.jpg');
+}
+
+#mlk { 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#chineseart { 
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+}
+
+#armstrong { 
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+
+#colosseum {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+}
+
+#berlinwall {
+    position: absolute;
+    top: 0;
+    right: 0; 
+}
+
+#wrightbros { 
+    position: absolute;
+    right: 0;
+    top: 40%;
+}

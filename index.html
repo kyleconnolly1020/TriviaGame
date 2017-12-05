@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>Trivia Game</title>
+</head>
+
+<body>
+    <style>
+        .fancy {
+            text-align: center;
+            margin-top: 18%;
+        }
+    </style>
+    <div id="container">
+        <h2 id="remainingTime">Seconds Remaining:
+            <span id="timer"></span>
+        </h2>
+        <br>
+        <form id="triviaQuestions">
+            <p id="question1">
+                <strong><u>Ruling for 64 years, who was the longest-reigning British monarch before Queen Elizabeth II?</u>
+                </strong>
+            </p>
+            <input class="answer" type="radio" name="monarchs" value="victoria"> Victoria
+            <input class="answer" type="radio" name="monarchs" value="george2"> George II
+            <input class="answer" type="radio" name="monarchs" value="george3"> George II
+            <input class="answer" type="radio" name="monarchs" value="edward8"> Edward VIII
+            <br><br>
+
+            <p id="question2">
+                <strong><u>The period of European history that lasted from the 14th to the the 17th century is known as what?</u></strong>
+            </p>
+            <input class="answer" type="radio" name="periodEurope" value="holyWars"> The Holy Wars
+            <input class="answer" type="radio" name="periodEurope" value="darkAges"> The Dark Ages
+            <input class="answer" type="radio" name="periodEurope" value="renaissance"> The Renaissance
+            <input class="answer" type="radio" name="periodEurope" value="romanEmpire"> The Roman Empire
+            <br><br>
+
+            <p id="question3">
+                <strong><u>Which major battle of WWII started on August 23, 1942 and was fought in what is now the city of Volgograd?</u></strong>
+            </p>
+            <input class="answer" type="radio" name="battle" value="bulge"> Battle of the Bulge
+            <input class="answer" type="radio" name="battle" value="stalingrad"> The Battle of Stalingrad
+            <input class="answer" type="radio" name="battle" value="normandy"> Invasion of Normandy
+            <input class="answer" type="radio" name="battle" value="helmsdeep"> Battle for Helm's Deep
+            <br><br>
+
+            <p id="question4">
+                <strong><u>The first human-made object to land on the moon was launched by what country?</u></strong>
+            </p>
+            <input class="answer" type="radio" name="moon" value="unitedstates">The United States
+            <input class="answer" type="radio" name="moon" value="japan">Japan
+            <input class="answer" type="radio" name="moon" value="soviet">The Soviet Union
+            <input class="answer" type="radio" name="moon" value="germany">Germany
+            <br><br>
+
+            <p id="question5">
+                <strong><u>In what year did Fidel Castro die?</u></strong>
+            </p>
+            <input class="answer" type="radio" name="castro" value="2016">2016
+            <input class="answer" type="radio" name="castro" value="1995">1995
+            <input class="answer" type="radio" name="castro" value="1978">1978
+            <input class="answer" type="radio" name="castro" value="1983">1983
+            <br><br>
+
+            <p id="question6">
+                <strong><u>Who was the oldest person to sign the Declaration of Independence?</u></strong>
+            </p>
+            <input class="answer" type="radio" name="declaration" value="johnadams">John Adams
+            <input class="answer" type="radio" name="declaration" value="johnhancock">John Hancock
+            <input class="answer" type="radio" name="declaration" value="samadams">Samuel Adams
+            <input class="answer" type="radio" name="declaration" value="benfranklin">Benjamin Franklin
+            <br><br>
+
+            <p id="question7">
+                <strong><u>Who led the first expedition to sail around the world?</u></strong>
+            </p>
+            <input class="answer" type="radio" name="expedition" value="polo">Marco Polo
+            <input class="answer" type="radio" name="expedition" value="magellan">Ferdinand Magellan
+            <input class="answer" type="radio" name="expedition" value="columbus">Christopher Columbus
+            <input class="answer" type="radio" name="expedition" value="davinci">Leonardo DaVinci
+            <br><br>
+
+            <p id="question8">
+                <strong><u>Which clan dominated Japanese politics of the Heian Period(794-1185) through the monopoly of regent positions?</u></strong>
+            </p>
+            <input class="answer" type="radio" name="clan" value="wutang">Wu Tang
+            <input class="answer" type="radio" name="clan" value="minamoto">Minamoto
+            <input class="answer" type="radio" name="clan" value="hashomoto">Hashomoto
+            <input class="answer" type="radio" name="clan" value="fujiwara">Fujiwara
+            <br>
+            <br>
+
+            <input type="submit" id="checkResults">
+        </form>
+        <div id="emptydiv"></div>
+        <img id = "mlk" src="http://www.simpleimageresizer.com/_uploads/photos/b0d95958/mlk_1_72.jpg">
+        <img id = "armstrong" src="http://www.simpleimageresizer.com/_uploads/photos/b0d95958/neilarmstrong_1_35.jpg">
+        <img id = "chineseart" src="http://www.simpleimageresizer.com/_uploads/photos/b0d95958/chineseart_1_67.jpg">
+        <img id = "berlinwall" src="http://www.simpleimageresizer.com/_uploads/photos/b0d95958/berlinwall_2_24.jpg">
+        <img id = "colosseum" src="http://www.simpleimageresizer.com/_uploads/photos/b0d95958/colosseum_2_49.gif">
+        <img id = "wrightbros" src="http://www.simpleimageresizer.com/_uploads/photos/b0d95958/wrightbrothers_2_33.jpg">
+    </div>
+    
+
+
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
